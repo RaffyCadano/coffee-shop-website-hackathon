@@ -1,2 +1,2 @@
-Coffee Shop Website - Title: MR. Coffee
+Coffee Shop Website (HACKATHON) - Title: "MR. Coffee"
 See https://mr-coffeee.web.app
