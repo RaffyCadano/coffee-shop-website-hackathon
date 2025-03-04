@@ -1,0 +1,260 @@
+@media screen and (max-width: 375px) {
+  .side-nav {
+    width: 375px;
+    max-width: 375px;
+  }
+  .product-gallery img {
+    width: 100px;
+  }
+
+  /*main respsonsive*/
+  .product-gallery {
+    text-align: center;
+  }
+}
+@media screen and (max-width: 430px) {
+  .side-nav {
+    width: 430px;
+  }
+  .product-gallery img {
+    width: 200px;
+  }
+
+  /*main respsonsive*/
+  .product-gallery {
+    text-align: center;
+    margin-top: 100px;
+  }
+
+  .quote-text h1 {
+    padding: 0px 20px;
+    font-size: 5em;
+  }
+
+  .container {
+    margin-bottom: 200px;
+  }
+  .product-gallery p {
+    padding: 0 20px;
+  }
+
+  /*menu responsive*/
+
+  .coffee-menu-title {
+    padding: 10px;
+  }
+  .coffee-menu-title h1 {
+    font-size: 1em;
+  }
+  .schedule-hours h1 {
+    font-size: 1.7em;
+  }
+  .coffee-menu-nav .coffee-menu-list button {
+    font-size: 8px;
+    padding: 5px;
+    height: 30px;
+  }
+  #searchForm input {
+    display: none;
+  }
+  #searchForm button {
+    display: none;
+  }
+  .cart {
+    display: none;
+  }
+  /*about*/
+  .welcoming-text,
+  .mission,
+  .community-drive,
+  .join-us,
+  .all-right-reserve {
+    width: 80%;
+  }
+  .about-container {
+    color: white;
+    padding: 0px;
+    margin: 0;
+  }
+  .welcoming-text h1 {
+    font-size: 3em;
+  }
+  .welcoming-text p {
+    font-size: 20px;
+    margin: 0;
+  }
+  .mission .video,
+  .join-us .video {
+    display: none;
+  }
+  .line-3 {
+    display: none;
+  }
+  .community-drive-text {
+    font-size: 20px;
+  }
+  .mission-text {
+    margin: 50px 0px;
+    font-size: 20px;
+    letter-spacing: 2px;
+  }
+  .join-us-text {
+    margin-top: 50px;
+    margin-right: 0px;
+    font-size: 20px;
+    letter-spacing: 2px;
+  }
+  /*contacts*/
+  .contacts-container {
+    padding: 0 20px;
+  }
+  .reach-us-container,
+  .feedback-container {
+    width: 100%;
+    height: 100%;
+  }
+  .fill-up-form-name,
+  .feedback-form-name {
+    flex-direction: column;
+  }
+  .fill-up-form-last-name,
+  .feedback-form-last-name {
+    margin-top: 20px;
+  }
+  .fill-up-form-name input,
+  .feedback-form-name input {
+    width: 100%;
+  }
+  .social-media-text {
+    font-size: 1.2em;
+  }
+  .all-right-reserve-text {
+    font-size: 1em;
+    margin-bottom: 50px;
+  }
+  /*modal*/
+  .coffee-view-container {
+    width: 100%;
+    left: 0;
+    top: 10%;
+  }
+
+  .coffeeInfo .productContainer {
+    width: 100%;
+    flex-direction: column;
+  }
+  .coffee-view-container img {
+    max-width: 100%;
+    min-width: 100%;
+    max-height: 350px;
+    min-height: 350px;
+    object-fit: cover;
+    margin: 0 auto;
+  }
+  .leave-a-review h1{
+    font-size: 2.2em;
+  }
+}
+
+@media screen and (max-width: 575.98px) {
+  .side-nav {
+    width: 575.98px;
+  }
+  .quote-text {
+    text-align: center;
+  }
+  .product-gallery {
+    text-align: center;
+    margin-top: 100px;
+  }
+}
+
+@media screen and (max-width: 998px) {
+  .side-nav {
+    width: 430px;
+    right: 0;
+  }
+  .responsive-nav {
+    display: flex;
+    justify-content: space-between;
+  }
+  nav ul {
+    display: none;
+  }
+  .container {
+    flex-direction: column;
+  }
+
+  .product-gallery img {
+    width: 500px;
+  }
+  .quote-text {
+    text-align: center;
+    max-width: 500px;
+  }
+  .quote-line {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .quote-text button {
+    margin: 0;
+  }
+  .line {
+    margin: 50px 0px 0px 0px;
+  }
+  .copyright {
+    display: none;
+  }
+  .quote-text a {
+    margin-top: 50px;
+  }
+  .product-gallery {
+    text-align: center;
+    margin-top: 100px;
+    max-width: 500px;
+  }
+}
+
+@media screen and (max-width: 1080px) {
+  .product-gallery img {
+    max-width: 400px;
+  }
+
+  .product-gallery {
+    max-width: 400px;
+  }
+}
+@media screen and (max-width: 1399px) {
+  .side-nav {
+    width: 430px;
+  }
+  .responsive-nav {
+    display: flex;
+    justify-content: space-between;
+  }
+  nav ul {
+    display: none;
+  }
+  .container {
+    padding: 0px;
+    justify-content: space-evenly;
+  }
+  .product-gallery img {
+    width: 500px;
+  }
+  .quote-text {
+    max-width: 500px;
+  }
+  .quote-text button {
+    margin: 0;
+  }
+  .quote-text a {
+    margin-top: 50px;
+  }
+  .product-gallery {
+    margin-top: 100px;
+    max-width: 500px;
+  }
+}

@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+    <link rel="stylesheet" href="./assets/css/index.css">
+    <link rel="stylesheet" href="./assets/css/responsive.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Sigmar&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+    <link rel="icon" href="./assets/images/logo/logo-black.png">
+    <title>Menu Page | Mr. Coffee</title>
+</head>
+
+<body>
+    <div class="side-nav" id="nav-container">
+        <button id="close-nav"><img src="./assets/images/icons/icons8-close-30.png" alt=""></button>
+        <ul>
+            <a href="menu.html">
+                <li>MENU</li>
+            </a>
+            <a href="about.html">
+                <li>ABOUT</li>
+            </a>
+            <a href="contacts.html">
+                <li>CONTACTS</li>
+            </a>
+            <a href="testimonials.html">
+                <li>TESTIMONIALS</li>
+            </a>
+        </ul>
+    </div>
+    <nav>
+        <div class="responsive-nav">
+            <a href="index.html" class="hero-logo">MR.COFFEE</a>
+            <button id="open-nav"><img src="./assets/images/icons/icons8-menu-50.png"></button>
+        </div>
+        <ul>
+            <a href="index.html" class="hero-logo">
+                <li>MR.COFFEE</li>
+            </a>
+            <a href="menu.html">
+                <li class="current">MENU</li>
+            </a>
+            <a href="about.html">
+                <li>ABOUT</li>
+            </a>
+            <a href="contacts.html">
+                <li>CONTACTS</li>
+            </a>
+            <a href="testimonials.html">
+                <li>TESTIMONIALS</li>
+            </a>
+        </ul>
+    </nav>
+    <main class="list-of-coffee">
+        <div class="coffee-menu-title">
+            <h1>Coffee at Its Best</h1>
+        </div>
+        <div class="schedule-hours" style="text-align:center;width: 100%;">
+            <h1>Schedule Hours</h1>
+            <h3 style="letter-spacing:2px">ALL WEEK • <span>6am</span> <span>- 10pm</span></h3>
+        </div>
+
+        <div class="coffee-menu-nav" id="coffee-menu-nav">
+            <div class="coffee-menu-list" id="coffee-menu-list">
+                <button class="coffee-menu-links" value="all" onclick="filterSelection('all')">ALL</button>
+                <button class="coffee-menu-links" value="Classic Coffees" onclick="filterSelection('Classic Coffees')">Classic Coffees</button>
+                <button class="coffee-menu-links" value="Iced Coffee Drinks" onclick="filterSelection('Iced Coffee Drinks')">Iced Coffee Drinks</button>
+                <button class="coffee-menu-links" value="Flavored & Specialty Coffees" onclick="filterSelection('Flavored & Specialty Coffees')">Flavored & Specialty Coffees</button>
+                <button class="coffee-menu-links" value="Non-Coffee Drinks" onclick="filterSelection('Non-Coffee Drinks')">Non-Coffee Drinks</button>
+                <button class="coffee-menu-links" value="Refreshing Beverages" onclick="filterSelection('Refreshing Beverages')">Refreshing Beverages</button>
+                <button class="coffee-menu-links" value="Pastries & Baked Goods" onclick="filterSelection('Pastries & Baked Goods')">Pastries & Baked Goods</button>
+            </div>
+
+            <form id="searchForm">
+                <input type="search" name="search" id="search_bar" placeholder="Search..." autocomplete="off" autofocus>
+                <button><img src="./assets/images/icons/icons8-search-50.png" alt="" width="20"></button>
+            </form>
+            <button class="cart"><img src="./assets/images/icons/icons8-cart-50.png" width="20"></button>
+        </div>
+        <ul class="coffee-list" id="coffeeList"></ul>
+    </main>
+    <div class="coffee-view">
+        <div class="coffee-view-container"></div>
+    </div>
+    <div class="all-right-reserve" style="margin-bottom: 50px;">
+        <p class="all-right-reserve-text">© All Right Reserved | <span> Designed By <a class="designerLink" href="https://rcadanoportfolio.wordpress.com", target="_blank"> Raffy Cadano</a></span></p>
+    </div>
+</body>
+<script src="./assets/js/index.js"></script>
+<script src="./assets/js/menu.js"></script>
+
+</html>

@@ -1,0 +1,202 @@
+[
+  {
+    "name": "Espresso",
+    "price": 2.5,
+    "description": "A strong, concentrated coffee shot.",
+    "imageLink": "../assets/images/drinks/Espresso.jpg",
+    "id": "Classic Coffees",
+    "coffeeId":"1"
+  },
+  {
+    "name": "Americano",
+    "price": 3.0,
+    "description": "Espresso diluted with hot water.",
+    "imageLink": "./assets/images/drinks/Americano-Coffee-01.jpg",
+    "id": "Classic Coffees",
+    "coffeeId":"2"
+  },
+  {
+    "name": "Latte",
+    "price": 4.5,
+    "description": "Espresso with steamed milk and a little foam.",
+    "imageLink": "../assets/images/drinks/AdobeStock_315919556-scaled.jpeg",
+    "id": "Classic Coffees",
+    "coffeeId":"3"
+  },
+  {
+    "name": "Cappuccino",
+    "price": 4.5,
+    "description": "Espresso with equal parts steamed milk and foam.",
+    "imageLink": "../assets/images/drinks/cappuccino-7757226_1280.jpg",
+    "id": "Classic Coffees",
+    "coffeeId":"4"
+  },
+  {
+    "name": "Mocha",
+    "price": 5.0,
+    "description": "A latte with chocolate syrup.",
+    "imageLink": "../assets/images/drinks/768baa302c5195ddedfa35ff5ccb7fa0.jpg",
+    "id": "Classic Coffees",
+    "coffeeId":"5"
+  },
+  {
+    "name": "Macchiato",
+    "price": 3.75,
+    "description": "Espresso with a small amount of milk or foam.",
+    "imageLink": "../assets/images/drinks/macchiato-coffee-igotcoffee.webp",
+    "id": "Classic Coffees",
+    "coffeeId":"6"
+  },
+  {
+    "name": "Iced Americano",
+    "price": 3.5,
+    "description": "Espresso over ice with water.",
+    "imageLink": "../assets/images/drinks/What-is-an-Iced-Americano.png",
+    "id": "Iced Coffee Drinks",
+    "coffeeId":"7"
+  },
+  {
+    "name": "Iced Latte",
+    "price": 5.0,
+    "description": "Espresso with cold milk and ice.",
+    "imageLink": "../assets/images/drinks/ice-latte.webp",
+    "id": "Iced Coffee Drinks",
+    "coffeeId":"8"
+  },
+  {
+    "name": "Iced Mocha",
+    "price": 5.5,
+    "description": "Espresso, chocolate, milk, and ice.",
+    "imageLink": "../assets/images/drinks/ice-mocha.webp",
+    "id": "Iced Coffee Drinks",
+    "coffeeId":"9"
+  },
+  {
+    "name": "Cold Brew",
+    "price": 4.75,
+    "description": "Coffee steeped in cold water for hours, served over ice.",
+    "imageLink": "../assets/images/drinks/cold-brew.webp",
+    "id": "Iced Coffee Drinks",
+    "coffeeId":"10"
+  },
+  {
+    "name": "Vanilla Latte",
+    "price": 5.0,
+    "description": "Espresso, milk, and vanilla syrup.",
+    "imageLink": "../assets/images/drinks/vanilla-latte.jpeg",
+    "id": "Flavored & Specialty Coffees",
+    "coffeeId":"11"
+  },
+  {
+    "name": "Hazelnut Mocha",
+    "price": 5.5,
+    "description": "Espresso, milk, chocolate, and hazelnut syrup.",
+    "imageLink": "../assets/images/drinks/Hazelnut-Mocha-Coffee_EXPS_BMZ20_164796_B10_23_11b-3.jpg",
+    "id": "Flavored & Specialty Coffees",
+    "coffeeId":"12"
+  },
+  {
+    "name": "Chai Latte",
+    "price": 4.75,
+    "description": "Spiced tea with steamed milk.",
+    "imageLink": "../assets/images/drinks/chai-tea-latte-9.jpg",
+    "id": "Non-Coffee Drinks",
+    "coffeeId":"13"
+  },
+  {
+    "name": "Matcha Latte",
+    "price": 5.25,
+    "description": "Green tea powder, milk, and sweetener.",
+    "imageLink": "../assets/images/drinks/Iced-Matcha-Latte2.jpg",
+    "id": "Non-Coffee Drinks",
+    "coffeeId":"14"
+  },
+  {
+    "name": "Hot Chocolate",
+    "price": 4.0,
+    "description": "Steamed milk with chocolate syrup.",
+    "imageLink": "../assets/images/drinks/Hot-Chocolate-Recipe-3.jpg",
+    "id": "Non-Coffee Drinks",
+    "coffeeId":"15"
+  },
+  {
+    "name": "Lemon Iced Tea",
+    "price": 3.5,
+    "description": "Black tea with lemon and ice.",
+    "imageLink": "../assets/images/drinks/Iced-Lemon-Tea-3-1536x1536.jpg",
+    "id":"Refreshing Beverages",
+    "coffeeId":"16"
+  },
+  {
+    "name": "Fruit Smoothies",
+    "price": 5.5,
+    "description": "Blended fruits with yogurt or milk.",
+    "imageLink": "../assets/images/drinks/fruit-smoothies.jpeg",
+    "id":"Refreshing Beverages",
+    "coffeeId":"17"
+  },
+  {
+    "name": "Italian Soda",
+    "price": 4.0,
+    "description": "Flavored syrup with sparkling water.",
+    "imageLink": "../assets/images/drinks/strawberry-italian-sodas-title.webp",
+    "id":"Refreshing Beverages",
+    "coffeeId":"18"
+  },
+  {
+    "name": "Butter Croissant",
+    "price": 3.50,
+    "description": "A classic, flaky, and buttery croissant.",
+    "imageLink": "../assets/images/food/butter-croissant.jpeg",
+    "id":"Pastries & Baked Goods",
+    "coffeeId":"19"
+  },
+  {
+    "name": "Almond Croissant",
+    "price": 4,
+    "description": "A buttery croissant filled with almond cream and topped with sliced almonds.",
+    "imageLink": "../assets/images/food/almond-croissant.jpeg",
+    "id":"Pastries & Baked Goods",
+    "coffeeId":"20"
+  },
+  {
+    "name": "Cheese Danish",
+    "price": 4.25,
+    "description": "A sweet pastry filled with creamy cheese filling.",
+    "imageLink": "../assets/images/food/Cream-Cheese-Berry-Danish-5.jpg",
+    "id":"Pastries & Baked Goods",
+    "coffeeId":"21"
+  },
+  {
+    "name": "Raspberry Danish",
+    "price": 4.50,
+    "description": "A flaky pastry filled with raspberry preserves and cream cheese.",
+    "imageLink": "../assets/images/food/Raspberry-danish.jpg",
+    "id":"Pastries & Baked Goods",
+    "coffeeId":"22"
+  },
+  {
+    "name": "Blueberry Muffin",
+    "price": 3.75,
+    "description": "A moist muffin packed with fresh blueberries.",
+    "imageLink": "../assets/images/food/Blueberry-Muffins-Picture-scaled.jpg",
+    "id":"Pastries & Baked Goods",
+    "coffeeId":"23"
+  },
+  {
+    "name": "Classic Scones",
+    "price": 4,
+    "description": "A tender scone, perfect with clotted cream and jam.",
+    "imageLink": "../assets/images/food/plain-scones.jpeg",
+    "id":"Pastries & Baked Goods",
+    "coffeeId":"24"
+  },
+  {
+    "name": "Chocolate Chip Cookie",
+    "price": 2.75,
+    "description": "A classic cookie loaded with chocolate chips.",
+    "imageLink": "../assets/images/food/chocolate-cookies.jpeg",
+    "id":"Pastries & Baked Goods",
+    "coffeeId":"25"
+  }
+]
