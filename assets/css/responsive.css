@@ -151,7 +151,12 @@
     object-fit: cover;
     margin: 0 auto;
   }
-  .leave-a-review h1{
+
+  .productInfo .productName {
+    font-size: 3em;
+    line-height: 60px;
+  }
+  .leave-a-review h1 {
     font-size: 2.2em;
   }
 }
@@ -215,6 +220,58 @@
     margin-top: 100px;
     max-width: 500px;
   }
+  /*contacts*/
+  .contacts-container {
+    padding: 0 20px;
+  }
+  .reach-us-container,
+  .feedback-container {
+    width: 100%;
+    height: 100%;
+  }
+  .fill-up-form-name,
+  .feedback-form-name {
+    flex-direction: column;
+  }
+  .fill-up-form-last-name,
+  .feedback-form-last-name {
+    margin-top: 20px;
+  }
+  .fill-up-form-name input,
+  .feedback-form-name input {
+    width: 100%;
+  }
+  .social-media-text {
+    font-size: 1.2em;
+  }
+  .all-right-reserve-text {
+    font-size: 1em;
+    margin-bottom: 50px;
+  }
+  /*modal*/
+  .coffee-view-container {
+    width: 100%;
+    max-width: 100%;
+    min-width: 100%;
+    left: 0;
+    top: 10%;
+  }
+
+  .coffeeInfo .productContainer {
+    width: 100%;
+    flex-direction: column;
+  }
+  .coffee-view-container img {
+    max-width: 100%;
+    min-width: 100%;
+    max-height: 350px;
+    min-height: 350px;
+    object-fit: cover;
+    margin: 0 auto;
+  }
+  .leave-a-review h1 {
+    font-size: 2.2em;
+  }
 }
 
 @media screen and (max-width: 1080px) {
@@ -238,14 +295,19 @@
     display: none;
   }
   .container {
-    padding: 0px;
+    padding: 0px 100px;
+    width: 100%;
     justify-content: space-evenly;
+    margin-bottom: 130px;
   }
   .product-gallery img {
-    width: 500px;
+    width: 400px;
   }
   .quote-text {
-    max-width: 500px;
+    max-width: 400px;
+  }
+  .quote-text h1 {
+    font-size: 5em;
   }
   .quote-text button {
     margin: 0;
@@ -255,6 +317,69 @@
   }
   .product-gallery {
     margin-top: 100px;
-    max-width: 500px;
+    max-width: 400px;
+  }
+  .reach-us-container,
+  .feedback-container {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+  }
+  
+}
+
+@media screen and (max-width: 1212px) {
+  /*contacts*/
+  .contacts-container {
+    padding: 0 20px;
+  }
+
+  .reach-us-container,
+  .feedback-container {
+    min-width: 100%;
+    height: 100%;
+  }
+  
+}
+@media screen and (max-width: 1512px) {
+  /*contacts*/
+  .contacts-container {
+    padding: 0 20px;
+  }
+  .reach-us-container,
+  .feedback-container {
+    min-width: 100%;
+    height: 100%;
+  }
+}
+@media screen and (max-width: 1812px) {
+  /*contacts*/
+  .contacts-container {
+    padding: 0 20px;
+  }
+
+  .reach-us-container,
+  .feedback-container {
+    width: 70%;
+    height: 100%;
+  }
+  .fill-up-form-name,
+  .feedback-form-name {
+    flex-direction: column;
+  }
+  .fill-up-form-last-name,
+  .feedback-form-last-name {
+    margin-top: 20px;
+  }
+  .fill-up-form-name input,
+  .feedback-form-name input {
+    width: 100%;
+  }
+  .social-media-text {
+    font-size: 1.2em;
+  }
+  .all-right-reserve-text {
+    font-size: 1em;
+    margin-bottom: 50px;
   }
 }
