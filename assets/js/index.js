@@ -136,9 +136,6 @@ document.getElementById('searchForm').addEventListener('submit', (e) => {
         a,
         i,
         txtValue;
-
-
-
     input = document.getElementById("search_bar");
     filter = input.value.toUpperCase();
     ul = document.getElementById("coffeeList");
@@ -152,7 +149,6 @@ document.getElementById('searchForm').addEventListener('submit', (e) => {
             if (current.length > 0) {
                 current[0].classList.remove("active"); // Remove the active class from the previously active button
             }
-
         } else {
             li[i].style.display = "none";
         }
